@@ -30,6 +30,17 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// 📋 UIListScreen - Flutter UI Elements Navigator 📋
+///
+/// A comprehensive list of Flutter UI components, each with a dedicated example screen,
+/// designed for easy navigation and exploration. Tap any list item to view a detailed
+/// example of the UI component.
+///
+/// 📌 Key Features:
+/// - **uiElements**: A list of UI element titles and corresponding screens.
+/// - **Dynamic Navigation**: Uses ListView.builder for flexible, scalable list generation.
+/// - **Navigation**: Tapping a ListTile navigates to the chosen component’s example screen.
+
 class UIListScreen extends StatelessWidget {
   // Define a list of items with titles and corresponding screens
   final List<Map<String, dynamic>> uiElements = [
@@ -44,12 +55,10 @@ class UIListScreen extends StatelessWidget {
     {'title': 'SizedBox', 'screen': SizedBoxExampleScreen()},
     {'title': 'Aspect Ratio', 'screen': AspectRatioExampleScreen()},
     {'title': 'Table', 'screen': TableExampleScreen()},
-
     {'title': 'Button Screen', 'screen': ButtonScreen()},
     {'title': 'TextField Screen', 'screen': TextFieldScreen()},
     {'title': 'Switch Screen', 'screen': SwitchScreen()},
     {'title': 'Slider Screen', 'screen': SliderScreen()},
-
     // Add more items as needed
   ];
 
@@ -75,6 +84,5 @@ class UIListScreen extends StatelessWidget {
     );
   }
 }
-
 
 
